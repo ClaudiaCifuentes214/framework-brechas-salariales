@@ -43,7 +43,9 @@ El framework opera bajo una arquitectura de tres capas que asegura la escalabili
 ## 📊 Métricas Core Implementadas
 
 * **Coeficiente de Gini (Python):** Calculado mediante la integración numérica de la Curva de Lorenz con la regla del trapecio:
-  $$\text{Gini} = 1 - \sum_{i=1}^{n} (x_i - x_{i-1})(y_i + y_{i-1})$$
+
+  *Fórmula matemática aplicada:* Gini = 1 - Suma( (x_i - x_{i-1}) * (y_i + y_{i-1}) )
+
   *Resultado del Prototipo:* **0.3722** (Muestra de 1,000 registros).
 * **Métricas Dinámicas (DAX):** `Ingreso Acumulado Relativo` y `Población Acumulada Relativa`.
 
